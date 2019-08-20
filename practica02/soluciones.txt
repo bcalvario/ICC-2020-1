@@ -1,0 +1,23 @@
+
+Línea 10: se declaro mal booleaN, lo cambie a boolean.
+
+Línea 10: a boolean se le asigno 0, solo se le puede asignar true o false. Lo cambie por true.
+
+Línea 11: a byte se le asigno un valor fuera de rango, solo de le puede asignar un valos entre -128 y 127. Le puse un signo menos.
+
+Línea 12: a short se le asigno un valor fuera de rango, solo se le puede asignar un valor entre -32768 y 32767. Cambie el valor a -32768.
+
+Línea 15: Discriminante no está declarado, pero si discriminante. Discriminante lo cambie por discriminante.
+
+Línea 18: se declaro Char, va con minusculas. Lo cambie por char.
+
+Línea 15: es incompatible el tipo de dato. Lo cambie por double.
+
+Línea 19: ch no está declaarado. Lo cambie por ch1.
+
+Línea 19:  w está con comillas dobles. A w le puse comillas simples.
+
+Línea 7 y 8: en la linea 7 tenía b = 20 y lo pase a la línea 8 y en la 7 solo deje b. En la línea 7 se están declarando las variables a, b, c y en la 8 se le están asignando sus valores.
+
+El error en tiempo de ejecución tiene que ver con la división entres cero.
+Línea 20: aquí se está tratando de dividir entre cero. Cambie el tres por un 4.
