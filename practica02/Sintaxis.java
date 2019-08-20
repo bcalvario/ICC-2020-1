@@ -20,7 +20,7 @@ public class Sintaxis {
 		int d = 1 / (a - 4);
 
 		// Declaraciones
-		int var_1 = 214748364;
+		long var_1 = 2147483648L;
 		char quote = '\'';
 
 	}
