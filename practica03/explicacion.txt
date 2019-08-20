@@ -1,0 +1,10 @@
+
+PrePost.java
+
+EL valor inicial de x es 20. Se decrementa y se imprime 19. Se vuelve a decrementar antes de imprimir y sale 18. Luego se decrementa antes de imprimir y sale 17. Ahora primero se imprime y luego se decrememnta por lo tanto primero se va a imprimir 17 y luego 16.
+
+
+
+Operadores.java
+
+En la lnea 6 se imprime la concatenacion del texto con la división de enteros que da como resultado un entero y en la línea 7 se combina el tipo in con double y ya nos da el resultado de la división con decimal.
