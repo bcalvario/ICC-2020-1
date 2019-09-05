@@ -1,4 +1,5 @@
 
+
 /**
  * @author: Berenice Calvario Gonzalez
  * @version: 4/09/2019
@@ -42,7 +43,7 @@ public class HeyJude {
                 }
                 if (i == 7){ //Condicional para indicar el parrafo 7
                     String hj2 = hj; //Declaramos una nueva cadena con el nombre hj2 y le asignamos la cadena hj
-                    int x = hj2.indexOf(","); //Declaramos la varible x de tipo enterko y le asignamos el valor de la posición en la que se encuentra la subcadena "," de la cadena hj2
+                    int x = hj2.indexOf(","); //Declaramos la varible x de tipo entero y le asignamos el valor de la posicion en la que se encuentra la subcadena "," de la cadena hj2
                     hj2 = hj2.substring(0,x); //A hj2 le asignamos la subcadena que va de 0 a x-1
                     System.out.print(hj2); //Imprimimos la hj2
                 }
@@ -91,4 +92,3 @@ public class HeyJude {
         }
     }
 }
-
