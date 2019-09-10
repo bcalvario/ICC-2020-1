@@ -20,7 +20,7 @@
     }
 
     /**
-     * 
+     * Constructor que recibe un titulo, autor y anio de publicacion
      */
     public Libro(String titulo, String autor, int anioDePublicacion){
         this.titulo = titulo;
