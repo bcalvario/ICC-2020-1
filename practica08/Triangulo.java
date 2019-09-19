@@ -1,4 +1,4 @@
-Package geometria;
+package geometria;
 
 /**
  * Representa un poligono de tres lados. Esta definido por tres puntos en el plano cartesiano.
@@ -7,22 +7,22 @@ Package geometria;
 
 public class Triangulo{
 
-    private double a;
-    private double b;
-    private double c;
+    private Punto a;
+    private Punto b;
+    private Punto c;
 
     public static final int EQUILATERO = 0;
     public static final int ESCALENO = 2;
     public static final int ISOSCELES = 1;
 
     /**
-     * Crea un triangulo equilatero de lado 1 con vertices en (0, 0), (1, 0) y (0.5, sin(π / 3)).
+     * Crea un triangulo equilatero de lado 1 con vertices en (0, 0), (1, 0) y (0.5, sin(pi / 3)).
      * @since 1.0
      */
     public Triangulo(){
-        a = (0,0);
-        b = (1,0);
-        c = (0.5,Math.sin(Math.PI/3));
+        a = new Punto(0,0);
+        b = new Punto(1,0);
+        c = new Punto(0.5,Math.sin(Math.PI/3));
     }
 
     /**
@@ -47,26 +47,39 @@ public class Triangulo{
      * @since 1.0
      */
     public boolean tieneVerticesAlineados(){
-        a.distacia()
-        return;
+        return a.estanAlineados(b,c);
     }
     /** 
     * Regresa el tipo de este triangulo segun la longitud de sus lados; puede ser equilatero, isosceles o escaleno.
     */
     public int tipo(){
-        if (t.tipo() == Triangulo.EQUILATERO){
-            System.out.println("es equilatero");
-        } else {
-            if (t.tipo() == Triangulo.ISOSCELES){
-                System.out.println("es isosceles");
-            } else {
-                (t.tipo() == Triangulo.ESCALENO){
-                    System.out.println("es escaleno");
-                }
+        double da = a.distancia(b);
+        double db = b.distancia(c);
+        double dc = c.distancia(a);
+
+        if(da == db && db == dc){
+            return EQUILATERO;
+        }
+        if(da == db || db == dc || dc == da){
+            if(!(da == db && db == dc)){
+                return ISOSCELES;
             }
         }
+            return ESCALENO;
+    
     }
 
+    public Punto geta(){
+        return a;
+    }
+
+    public Punto getb(){
+        return b;
+    }
+
+    public Punto getc(){
+        return c;
+    }
 
 
 }
