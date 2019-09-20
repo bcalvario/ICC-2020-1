@@ -1,3 +1,7 @@
+/**
+ * @author: Berenice Calvario Gonzalez
+ * @version: 4/09/2019
+ */
 
 public class Temperatura{
 	public static int CELSIUS =2;
