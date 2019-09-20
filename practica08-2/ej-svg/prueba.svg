@@ -1,0 +1,8 @@
+<svg width="500.00" height="400.00" xmlns="http://www.w3.org/2000/svg">
+  <line x1 = "110.0" y1 = "20.0" x2 = "410.0" y2 = "20.0" style="stroke: black; stroke-width: 1; fill: none" />
+  <line x1 = "410.0" y1 = "20.0" x2 = "260.0" y2 = "280.0" style="stroke: black; stroke-width: 1; fill: none" />
+  <line x1 = "260.0" y1 = "280.0" x2 = "110.0" y2 = "20.0" style="stroke: black; stroke-width: 1; fill: none" />
+  <line x1 = "185.0" y1 = "150.0" x2 = "335.0" y2 = "150.0" style="stroke: black; stroke-width: 1; fill: none" />
+  <line x1 = "335.0" y1 = "150.0" x2 = "260.0" y2 = "20.0" style="stroke: black; stroke-width: 1; fill: none" />
+  <line x1 = "260.0" y1 = "20.0" x2 = "185.0" y2 = "150.0" style="stroke: black; stroke-width: 1; fill: none" />
+</svg>
