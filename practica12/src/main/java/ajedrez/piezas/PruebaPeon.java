@@ -15,13 +15,13 @@ public class PruebaPeon {
         Peon peon2 = new Peon(Color.NEGRO, new Posicion(1, 3));
         System.out.println(peon2.obtenerJugadasLegales());
 
-        Peon peon3 = new Peon(Color.BLANCO, new Posicion(1, 0));
+        Peon peon3 = new Peon(Color.BLANCO, new Posicion(6, 0));
         System.out.println(peon3.obtenerJugadasLegales());
 
-        Peon peon4 = new Peon(Color.BLANCO, new Posicion(1, 7));
+        Peon peon4 = new Peon(Color.BLANCO, new Posicion(6, 7));
         System.out.println(peon4.obtenerJugadasLegales());
 
-        Peon peon5 = new Peon(Color.BLANCO, new Posicion(1, 3));
+        Peon peon5 = new Peon(Color.BLANCO, new Posicion(6, 3));
         System.out.println(peon5.obtenerJugadasLegales());
     }
 
