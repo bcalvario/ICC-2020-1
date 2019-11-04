@@ -46,28 +46,28 @@ public class Dama extends Pieza {
             }
         }
 
-        // Diagonal arriba derecha
+        // Diagonal superior derecha
         for (int i = fila - 1, j = columna + 1; i >= 0 && j <= 7; i--, j++) {
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             }
         }
 
-        // Diagonal abajo derecha
+        // Diagonal inferior derecha
         for (int i = fila + 1, j = columna + 1; i <= 7 && j <= 7; i++, j++) {
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             }
         }
 
-        // Diagonal arriba izquierda
+        // Diagonal superior izquierda
         for (int i = fila - 1, j = columna - 1; i >= 0 && j >= 0; i--, j--) {
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             }
         }
 
-        // Diagonal abajo izquierda
+        // Diagonal inferior izquierda
         for (int i = fila + 1, j = columna - 1; i <= 7 && j >= 0; i++, j--) {
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
